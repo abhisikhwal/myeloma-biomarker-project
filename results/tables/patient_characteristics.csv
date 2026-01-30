@@ -1,0 +1,11 @@
+Characteristic,Value
+Total Patients,995
+"Age (years), median (range)",63.4 (27.8-89.8)
+"Gender - Male, n (%)",602 (60.5%)
+"Gender - Female, n (%)",393 (39.5%)
+"ISS Stage I, n (%)",348 (35.0%)
+"ISS Stage II, n (%)",353 (35.5%)
+"ISS Stage III, n (%)",266 (26.7%)
+"Vital Status - Alive, n (%)",804 (80.8%)
+"Vital Status - Dead, n (%)",191 (19.2%)
+Median Survival (months)*,15.6
