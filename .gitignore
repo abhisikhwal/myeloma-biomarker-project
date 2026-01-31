@@ -1,193 +1,36 @@
-# Multiple Myeloma Biomarker Discovery - Git Ignore
-# ============================================================
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+*.so
 
-# ============================================================
-# Data Files (Large files - do not track)
-# ============================================================
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (large)
 data/raw/
-data/raw/*
 *.tsv
 *.csv.gz
 *.h5
 *.hdf5
-*.parquet
 
-# Keep processed data (smaller files)
-!data/processed/patient_level_clean.csv
-
-# ============================================================
-# Python
-# ============================================================
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# ============================================================
-# Jupyter Notebook
-# ============================================================
-.ipynb_checkpoints/
-*.ipynb_checkpoints/
-**/.ipynb_checkpoints/
-*/.ipynb_checkpoints/*
-
-# Jupyter Notebook outputs (optional - uncomment to ignore outputs)
-# *.ipynb
-
-# ============================================================
-# Virtual Environments
-# ============================================================
+# Virtual environments
 venv/
 env/
-ENV/
-.venv
-venv.bak/
-env.bak/
+.venv/
 
-# ============================================================
-# IDEs
-# ============================================================
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
-.project
-.pydevproject
-.settings/
 
-# ============================================================
-# Operating System
-# ============================================================
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-Desktop.ini
-
-# ============================================================
-# Machine Learning Models (Large files)
-# ============================================================
+# Models (large files)
 *.pth
 *.pt
 *.ckpt
-*.h5
-*.pkl
-*.pickle
-models/checkpoints/
-
-# Keep final models (if small)
-!results/models/final_model.pth
-
-# ============================================================
-# Temporary Files
-# ============================================================
-*.tmp
-*.temp
-*.log
-*.bak
-*.swp
-*~
-
-# ============================================================
-# Documentation Build
-# ============================================================
-docs/_build/
-site/
-
-# ============================================================
-# Test Coverage
-# ============================================================
-.coverage
-.coverage.*
-htmlcov/
-.pytest_cache/
-.tox/
-
-# ============================================================
-# R (if any R scripts)
-# ============================================================
-.Rhistory
-.RData
-.Rproj.user
-
-# ============================================================
-# Secrets & Credentials
-# ============================================================
-*.key
-*.pem
-.env
-.env.local
-credentials.json
-config.json
-secrets.yaml
-
-# ============================================================
-# Large Result Files (optional)
-# ============================================================
-# Uncomment if you don't want to track large result files
-# results/tables/*.csv
-# results/figures/*.png
-# results/figures/*.pdf
-
-# ============================================================
-# Keep Important Files (Force track)
-# ============================================================
-!README.md
-!LICENSE
-!requirements.txt
-!.gitignore
-!docs/*.md
-!notebooks/*.ipynb
-!results/figures/*.png
-!results/tables/*.csv
-
-# ============================================================
-# Git LFS (if using Git Large File Storage)
-# ============================================================
-# .gitattributes
-
-# ============================================================
-# Node.js (if any web components)
-# ============================================================
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# ============================================================
-# System Files
-# ============================================================
-.fuse_hidden*
-.directory
-.Trash-*
-.nfs*
-
-# ============================================================
-# Backup Files
-# ============================================================
-*.backup
-*.old
-*_backup
-*_old
-
-# ============================================================
