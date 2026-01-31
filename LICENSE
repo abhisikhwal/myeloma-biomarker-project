@@ -20,16 +20,47 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
+================================================================================
+DATA USAGE NOTICE
+================================================================================
 
-DATA USAGE NOTICE:
+This project uses data from the Multiple Myeloma Research Foundation (MMRF)
+Relating Clinical Outcomes in MM to Personal Assessment of Genetic Profile
+(CoMMpass) Study, accessed via the NCI Genomic Data Commons (GDC).
 
-This project uses data from the Multiple Myeloma Research Foundation (MMRF) 
-CoMMpass Study. Users of this code must comply with the MMRF data usage 
-agreements and properly cite the CoMMpass study in any publications or 
-presentations.
+Users of this code and analysis must:
+
+1. COMPLY with MMRF data usage agreements and GDC data access policies
+2. CITE the CoMMpass study appropriately in any publications or presentations
+3. ACKNOWLEDGE the data source in derived works
 
 Recommended Citation:
-"Data were obtained from the Multiple Myeloma Research Foundation (MMRF) 
-Relating Clinical Outcomes in MM to Personal Assessment of Genetic Profile 
-(CoMMpass) study (NCT01454297), accessed via the NCI Genomic Data Commons."
+"Data were obtained from the Multiple Myeloma Research Foundation (MMRF)
+Relating Clinical Outcomes in MM to Personal Assessment of Genetic Profile
+(CoMMpass) study (ClinicalTrials.gov identifier: NCT01454297), accessed via
+the NCI Genomic Data Commons (https://portal.gdc.cancer.gov/)."
+
+================================================================================
+DISCLAIMER
+================================================================================
+
+This analysis is for RESEARCH AND EDUCATIONAL PURPOSES ONLY.
+
+- Findings are exploratory and require validation
+- Not intended for direct clinical use without prospective validation
+- Computational predictions do not constitute clinical recommendations
+- Always consult with qualified healthcare professionals for medical decisions
+
+The authors make no warranties regarding the accuracy, completeness, or
+suitability of this analysis for any particular purpose.
+
+================================================================================
+CONTACT
+================================================================================
+
+For questions about this analysis:
+[Your Name]
+Email: [your.email@institution.edu]
+GitHub: https://github.com/[your-username]
+
+================================================================================

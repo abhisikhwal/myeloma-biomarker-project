@@ -1,0 +1,2 @@
+total_genes_tested,significant_genes,upregulated,downregulated,protein_coding_sig,median_fc_up,median_fc_down,top_gene_up,top_gene_down
+30018,6356,4968,1388,4640,0.05720165229650931,-0.026461792288563823,RAN,NOXA1
