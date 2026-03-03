@@ -23,3 +23,6 @@ jupyter
 jupyterlab
 ipykernel
 tqdm
+adjustText
+requests
+openpyxl

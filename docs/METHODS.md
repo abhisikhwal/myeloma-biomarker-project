@@ -724,4 +724,4 @@ pip install -r requirements.txt
 ---
 
 **Methods Documentation Complete**  
-**For questions:** Contact [Your Name] at [your.email@institution.edu]
+**For questions:** Contact Abhinav Sikhwal at https://github.com/abhisikhwal

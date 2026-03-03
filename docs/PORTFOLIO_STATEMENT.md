@@ -1,8 +1,8 @@
 # Research Portfolio Statement
 ## Multiple Myeloma Biomarker Discovery Project
 
-**Author:** [Your Name]  
-**Institution:** [Your Current Institution]  
+**Author:** Abhinav Sikhwal  
+**Institution:** Applying to Leibniz-LSB at TUM (Technical University of Munich)  
 **Date:** January 2026  
 **Purpose:** PhD Application Portfolio - Computational Biology / Bioinformatics
 
@@ -589,11 +589,9 @@ Thank you for considering my application. I would welcome the opportunity to dis
 [Your Current Institution]  
 [Your Department]
 
-**Email:** [your.email@institution.edu]  
-**Phone:** [(XXX) XXX-XXXX]  
-**LinkedIn:** linkedin.com/in/[your-profile]  
-**GitHub:** github.com/[your-username]  
-**Website:** [your-website.com] (if applicable)
+**GitHub:** https://github.com/abhisikhwal  
+**LinkedIn:** https://www.linkedin.com/in/abhinav-sikhwal/  
+**Portfolio:** https://github.com/abhisikhwal/myeloma-biomarker-project
 
 ---
 

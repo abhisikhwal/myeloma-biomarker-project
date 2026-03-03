@@ -8,8 +8,11 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data files (large)
+# Data files (MMRF controlled-access data - NEVER commit)
 data/raw/
+data/processed/clinical_merged.csv
+data/processed/patient_level_clean.csv
+data/processed/*.csv.gz
 *.tsv
 *.csv.gz
 *.h5

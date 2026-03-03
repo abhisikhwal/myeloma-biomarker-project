@@ -15,6 +15,18 @@ This project identifies molecular biomarkers of disease progression through mult
 - **Data:** RNA-seq (30,018 genes), clinical outcomes
 - **Follow-up:** Median 2.8 years
 
+## Results at a Glance
+
+| Analysis Type | Key Metric | Result | Significance |
+|--------------|------------|--------|--------------|
+| **Differential Expression** | Significant genes (FDR < 0.05) | 6,356 genes | 3,187 up, 3,169 down |
+| **Pathway Enrichment** | Top pathway (GO) | Cell cycle | p < 1e-20 |
+| **GSEA** | Strongest enrichment | G2-M Checkpoint | NES = 2.897, FDR < 0.001 |
+| **Machine Learning** | Best model (AUC) | Logistic Regression | 0.874 |
+| **SHAP Interpretation** | Top predictor | MYC | Consistent #1 across models |
+| **Deep Learning** | Classification accuracy | 93.8% | 100% Stage III sensitivity |
+| **Unsupervised Clustering** | Molecular subtypes | 4 clusters | Stage II heterogeneity |
+
 ## Key Results
 
 ### Differential Expression
@@ -109,20 +121,52 @@ myeloma-biomarker-project/
 - Therapeutic targets: MYC inhibitors (BET), MTHFD2 (metabolic), CDK inhibitors
 - Perfect Stage III detection (100% sensitivity) enables early intervention
 
+## Data Access
+
+**IMPORTANT:** The MMRF CoMMpass dataset requires controlled access authorization.
+
+- **Raw data cannot be shared publicly** due to data usage agreements
+- To reproduce this analysis, you must:
+  1. Apply for data access at: https://portal.gdc.cancer.gov/ (dbGaP authentication)
+  2. Submit MMRF data use application at: https://research.themmrf.org/
+  3. Download clinical and RNA-seq data following approval
+  4. Place files in `data/raw/` directory as specified in `data/README.md`
+
+The repository includes:
+- ✅ All analysis code (notebooks 01-09)
+- ✅ Methodology documentation
+- ✅ Small summary statistics
+- ❌ No raw patient-level data (excluded per data usage agreement)
+
 ## Installation
 
 ```bash
-git clone https://github.com/[username]/myeloma-biomarker-project.git
+git clone https://github.com/abhisikhwal/myeloma-biomarker-project.git
 cd myeloma-biomarker-project
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-Analysis notebooks are numbered sequentially (01-09). Start with:
+### Notebook Execution Order
+
+Execute notebooks sequentially for full reproducibility:
+
+1. **01_explore_clinical_data.ipynb** - Clinical survival analysis, Kaplan-Meier curves
+2. **02_download_rnaseq_data.ipynb** - GDC data download (requires MMRF authorization)
+3. **03_process_rnaseq_counts.ipynb** - Normalization, QC, gene filtering
+4. **04_differential_expression_analysis.ipynb** - 6,356 significant genes (FDR < 0.05)
+5. **05_pathway_enrichment_analysis.ipynb** - GO, KEGG, Reactome enrichment
+6. **06_gsea_analysis.ipynb** - MSigDB Hallmarks (G2-M checkpoint NES = 2.897)
+7. **07_machine_learning_survival.ipynb** - ML models, SHAP interpretability
+8. **08_deep_learning_neural_network.ipynb** - PyTorch classifier (93.8% accuracy)
+9. **09_unsupervised_learning_clustering.ipynb** - UMAP, K-means, molecular subtypes
+
+**Note:** Notebooks 02-09 require MMRF data access (see Data Access section above)
 
 ```bash
-jupyter notebook notebooks/01_clinical_analysis.ipynb
+cd notebooks
+jupyter lab
 ```
 
 ## Key Files
@@ -138,17 +182,16 @@ jupyter notebook notebooks/01_clinical_analysis.ipynb
 If you use this analysis or methodology:
 
 ```
-[Your Name] (2025). Multiple Myeloma Biomarker Discovery: Integrative 
-Computational Analysis. GitHub repository.
+Abhinav Sikhwal (2026). Multiple Myeloma Biomarker Discovery: Integrative 
+Computational Analysis. GitHub: https://github.com/abhisikhwal/myeloma-biomarker-project
 ```
 
 ## Contact
 
-**[Your Name]**  
-[University/Institution]  
-Email: [your.email@domain.com]  
-GitHub: [@your-username](https://github.com/your-username)  
-LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
+**Abhinav Sikhwal**  
+Computational Biology Researcher  
+GitHub: [@abhisikhwal](https://github.com/abhisikhwal)  
+LinkedIn: [linkedin.com/in/abhinav-sikhwal](https://www.linkedin.com/in/abhinav-sikhwal/)
 
 ## License
 
@@ -156,5 +199,5 @@ MIT License - See LICENSE file for details
 
 ---
 
-**Analysis Completed:** January 2025  
-**Purpose:** PhD Application Portfolio - Computational Biology/Bioinformatics
+**Analysis Completed:** January 2026  
+**Purpose:** PhD Application Portfolio (Leibniz-LSB at TUM) - Computational Biology/Bioinformatics

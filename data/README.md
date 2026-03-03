@@ -189,9 +189,9 @@ data/processed/patient_level_clean.csv.
 
 For questions about data processing or access:
 
-**[Your Name]**  
-Email: [your.email@institution.edu]  
-GitHub: https://github.com/[your-username]/myeloma-biomarker-project
+**Abhinav Sikhwal**  
+GitHub: https://github.com/abhisikhwal/myeloma-biomarker-project  
+LinkedIn: https://www.linkedin.com/in/abhinav-sikhwal/
 
 ---
 

@@ -1,8 +1,8 @@
 # Comprehensive Analysis Summary
 ## Multiple Myeloma Biomarker Discovery: Integrated Computational Analysis
 
-**Author:** [Your Name]  
-**Institution:** [Your University]  
+**Author:** Abhinav Sikhwal  
+**Institution:** Applying to Leibniz-LSB at TUM  
 **Date:** January 2026  
 **Project Duration:** 3 weeks  
 **Analysis Notebooks:** 9
@@ -799,7 +799,6 @@ This work provides a blueprint for **integrative computational biology** combini
 ---
 
 **For questions or collaborations:**  
-[Your Name]  
-[Your Email]  
-[Your LinkedIn]  
-[Your GitHub]
+Abhinav Sikhwal  
+GitHub: https://github.com/abhisikhwal  
+LinkedIn: https://www.linkedin.com/in/abhinav-sikhwal/

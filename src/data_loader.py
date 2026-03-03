@@ -4,7 +4,7 @@ Data Loading Utilities for Multiple Myeloma Clinical Data
 This module provides functions to load and merge clinical data files from the
 MMRF CoMMpass dataset. It handles TSV files and performs basic data validation.
 
-Author: [Your Name]
+Author: Abhinav Sikhwal
 Date: January 2026
 """
 
